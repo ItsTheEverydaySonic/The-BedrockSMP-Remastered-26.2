@@ -7,6 +7,7 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 
 public class TBSItemTags {
+    //TAGS
     public static final TagKey<Item> CHERRY_BIRCH_LOGS = bind("cherry_birch_logs");
     public static final TagKey<Item> HEADS = bind("heads");
     public static final TagKey<Item> STEEL_EQUIPMENT_REPAIR = bind("steel_equipment_repair");
@@ -25,6 +26,7 @@ public class TBSItemTags {
     public static final TagKey<Item> DREADITE_EQUIPMENT_REPAIR = bind("dreadite_equipment_repair");
     public static final TagKey<Item> STICK_REPAIR = bind("stick_repair");
 
+    //EXTRA
     private TBSItemTags() {
     }
 

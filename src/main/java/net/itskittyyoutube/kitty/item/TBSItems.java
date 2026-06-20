@@ -447,7 +447,7 @@ public class TBSItems {
     //public static final Item SHELFSHELF = register(
             //TBSBlocks.SHELFSHELF, (UnaryOperator<Item.Settings>)(settings -> settings.component(DataComponentTypes.CONTAINER, ContainerComponent.DEFAULT)));
 
-    //Extra
+    //EXTRA
     private static Item registerItem(String name, Function<Item.Properties, Item> function) {
         return Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(TBS.MOD_ID, name),
                 function.apply(new Item.Properties().setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(TBS.MOD_ID, name)))));
@@ -478,7 +478,7 @@ public class TBSItems {
         //Creative Tabs
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(entries -> {
             entries.insertBefore(Items.MUSIC_DISC_13, TBSItems.MUSIC_DISC_TEMPLATE);
-            entries.insertAfter(Items.MUSIC_DISC_LAVA_CHICKEN, TBSItems.MUSIC_DISC_THE_TALE_OF_TOOTHLESS);
+            entries.insertAfter(Items.MUSIC_DISC_BOUNCE, TBSItems.MUSIC_DISC_THE_TALE_OF_TOOTHLESS);
             entries.insertAfter(TBSItems.MUSIC_DISC_THE_TALE_OF_TOOTHLESS, TBSItems.MUSIC_DISC_THE_BYE_JUSTIN_HI_JUSTIN_RAP);
             entries.insertAfter(TBSItems.MUSIC_DISC_THE_BYE_JUSTIN_HI_JUSTIN_RAP, TBSItems.MUSIC_DISC_STEVE_LAVA_CHICKEN);
             entries.insertAfter(TBSItems.MUSIC_DISC_STEVE_LAVA_CHICKEN, TBSItems.MUSIC_DISC_LAVA_TEARSSTEP);

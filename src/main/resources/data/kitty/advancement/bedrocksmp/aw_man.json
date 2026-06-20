@@ -17,11 +17,15 @@
       "trigger": "minecraft:entity_killed_player",
       "conditions": {
         "entity": {
-          "type": [
-            "minecraft:creeper"
-          ]
+          "minecraft:entity_type": "minecraft:creeper"
         }
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "creeper"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

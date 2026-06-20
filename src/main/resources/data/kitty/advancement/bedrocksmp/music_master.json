@@ -221,6 +221,16 @@
         ]
       }
     },
+    "disc_bounce": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_bounce"
+          }
+        ]
+      }
+    },
     "disc_toothless_rap": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -573,6 +583,9 @@
     ],
     [
       "disc_toothless_rap"
+    ],
+    [
+      "disc_bounce"
     ],
     [
       "disc_lava_chicken"
